@@ -5,7 +5,7 @@ win.geometry('280x280')
 #functions
 def new():
     labl.configure(text="Newfile Clicked")
-    submenu1.entryconfig('New', state='disabled')
+    submenu1.entryconfig("New", state='disabled')
 #Main Menu Points
 menu1 = Menu(win)
 submenu1 = Menu(menu1,tearoff=0)
