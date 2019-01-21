@@ -5,7 +5,7 @@ def rc():
     h = float(hent.get())
     l = float(lent.get())
     w = float(went.get())
-    if fent.get() == "":
+    if fent.get() == '':
         f = 25.4
     else:
         f = float(fent.get())
