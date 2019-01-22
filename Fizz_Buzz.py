@@ -13,4 +13,4 @@ def fizz_buzz(i):
     return i
 
 
-print(fizz_buzz(int(input('Write a number to test: '))))
+print(fizz_buzz(int(input('Write a no. to test: '))))

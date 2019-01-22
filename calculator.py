@@ -6,7 +6,8 @@ w = tkinter.Tk()
 myTitle = tkinter.Label(w, text='make it run')
 myTitle.pack()
 
-
+#not working
+#WORK UNDER COUNSTRUCTION
 def main():
     b1 = tkinter.Button(w,text = '1',command = 'main')
     b1.pack()
