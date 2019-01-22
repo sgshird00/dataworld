@@ -7,7 +7,7 @@ toy = (date.today())
 print("1 :  ", toy)
 print("2 :  ", toy.day, toy.month, toy.year)
 days = ['Monday', 'Tuesday', 'Wednesday',
-        'Thursday', 'Friday', 'Saturday', 'Sunday']
+        'Thursday', 'Friday', 'Saturday', 'SundaY']
 print("3 :  ", days[toy.weekday()])
 print("4 :  ", datetime.time(datetime.now()))
 print("5 :  timedelta set: ", timedelta(
