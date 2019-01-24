@@ -4,6 +4,28 @@
     <title>
         Nothing Serious
     </title>
+    <style>
+    html{color:red}
+    body{background:orange}
+    #container {width: 600px;height:560px;background: orchid}
+    #header {width: 100%;height: 120px;background:rebeccapurple}
+    #logo {float: left;width:40;height: 40px;background:red;margin:10px}
+    #startup {float: right;width:40;height: 40px;background:red;margin:10px}
+    #navbar {clear: both;width:100%;height: 80px;background:slategrey}
+    #navbar ul{list-style-type: none;}
+    #navbar ul li {padding: 10px;float:left}
+    #content {width:100%;height: 360px;background:springgreen}
+    #banner {width:100%;clear :both;height: 100px;background:violet}
+    #left {padding :30px;float: left;width:230px;height: 200px;background:black}
+    #right {width:230px;padding :30px;float: right;height: 200px;background:black}
+    #footer {width:100%;height: 120px;background:yellow}
+    </style>
+<script>
+function run()
+{
+document.getElementById('banner').innerHTML = document.getElementById('logo').innerHTML;
+}
+</script>
 </head>
 
 <body>
@@ -12,20 +34,20 @@
         <div id =logo>logo</div>
         <div id =startup>startup</div>
         <div id =navbar>
-            <ui>
+            <ul>
+                <li><a href="mailto:sgshird00@gmail.com" target =blank>link goes here</a></li>
                 <li><a href=URL>link goes here</a></li>
                 <li><a href=URL>link goes here</a></li>
                 <li><a href=URL>link goes here</a></li>
-                <li><a href=URL>link goes here</a></li>
-            </ui>
+            </ul>
         </div>
     </div>
     <div id =content >
-        <div id =banner>banner text</div>
-        <div id =left_content>left area</div>
-        <div id =right_content>right area</div>
+        <div id =banner><input type="button" onclick=run()></div>
+        <div id =left>left area</div>
+        <div id =right>right area</div>
     </div>
-    <div id =footer >
+    <div id =footer ><meter value= 0.6 style="background-color: black; padding:2px">60%</meter>
     footer txt    
     </div>
 </div>
